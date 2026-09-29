@@ -1,0 +1,90 @@
+:root {
+  --font-display: "Sora", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --radius-full: 999px;
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6rem;
+
+  --container: min(1140px, 100% - 2rem);
+  --header-h: 4.25rem;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 0.2s var(--ease);
+  --t: 0.35s var(--ease);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0b0f17;
+  --bg-soft: #101827;
+  --bg-alt: #0d121c;
+  --surface: #131b2a;
+  --surface-hover: #182236;
+
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.14);
+
+  --text: #eef2ff;
+  --text-muted: #9aa7bf;
+  --text-faint: #6b778d;
+
+  --primary: #5b8cff;
+  --primary-strong: #7aa2ff;
+  --secondary: #34d399;
+
+  --gradient: linear-gradient(135deg, #5b8cff 0%, #8b5cf6 55%, #22d3ee 100%);
+  --gradient-soft: radial-gradient(circle at 20% 0%, rgba(91, 140, 255, 0.18), transparent 45%);
+
+  --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 18px 50px rgba(0, 0, 0, 0.35);
+  --header-bg: rgba(11, 15, 23, 0.78);
+  --mesh-a: rgba(91, 140, 255, 0.2);
+  --mesh-b: rgba(139, 92, 246, 0.16);
+  --mesh-c: rgba(34, 211, 238, 0.1);
+  --grid: rgba(255, 255, 255, 0.035);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #f5f7fc;
+  --bg-soft: #eef2fa;
+  --bg-alt: #e9eef8;
+  --surface: #ffffff;
+  --surface-hover: #f8faff;
+
+  --line: rgba(15, 23, 42, 0.1);
+  --line-strong: rgba(15, 23, 42, 0.16);
+
+  --text: #0f172a;
+  --text-muted: #5b6478;
+  --text-faint: #8b95a8;
+
+  --primary: #3b6eea;
+  --primary-strong: #2f5fd4;
+  --secondary: #059669;
+
+  --gradient: linear-gradient(135deg, #3b6eea 0%, #7c3aed 55%, #0891b2 100%);
+  --gradient-soft: radial-gradient(circle at 20% 0%, rgba(59, 110, 234, 0.12), transparent 45%);
+
+  --shadow-sm: 0 8px 24px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 18px 50px rgba(15, 23, 42, 0.1);
+  --header-bg: rgba(245, 247, 252, 0.86);
+  --mesh-a: rgba(59, 110, 234, 0.14);
+  --mesh-b: rgba(124, 58, 237, 0.1);
+  --mesh-c: rgba(8, 145, 178, 0.08);
+  --grid: rgba(15, 23, 42, 0.05);
+}

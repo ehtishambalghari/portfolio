@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5b8cff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="#0c0e14"/>
+  <rect width="400" height="400" fill="url(#dots)"/>
+  <rect x="32" y="32" width="336" height="336" rx="28" stroke="url(#g)" stroke-width="2" opacity="0.45"/>
+  <circle cx="200" cy="158" r="62" fill="url(#g)" opacity="0.22"/>
+  <path d="M88 318c28-52 84-78 112-78s84 26 112 78" stroke="url(#g)" stroke-width="2" opacity="0.35" fill="none"/>
+  <text x="200" y="372" text-anchor="middle" fill="#9aa4b8" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Replace with assets/images/profile.jpg</text>
+</svg>

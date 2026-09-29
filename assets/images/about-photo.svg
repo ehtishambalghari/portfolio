@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="peak" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="560" fill="url(#sky)"/>
+  <path d="M0 360 L120 220 L220 300 L340 180 L480 320 L480 560 L0 560 Z" fill="#1e293b" opacity="0.9"/>
+  <path d="M80 380 L200 240 L300 330 L420 210 L480 280 L480 560 L80 560 Z" fill="url(#peak)" opacity="0.35"/>
+  <circle cx="380" cy="120" r="36" fill="#fbbf24" opacity="0.85"/>
+  <text x="240" y="520" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="14">Gilgit-Baltistan  replace with assets/images/about.jpg</text>
+</svg>
