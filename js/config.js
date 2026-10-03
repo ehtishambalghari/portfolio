@@ -119,11 +119,11 @@ window.PORTFOLIO_CONFIG = {
 
         "Responsive online store with product layout, cart flow, and modern UI patterns built for real-world retail experiences.",
 
-      status: "Coming Soon",
+      status: "Live",
 
       href: "#",
 
-      image: "assets/images/project-bmi.svg",
+      image: "assets/images/project-bmi.jpg",
 
       tags: ["HTML", "CSS", "JavaScript"],
 
