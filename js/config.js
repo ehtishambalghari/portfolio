@@ -121,7 +121,7 @@ window.PORTFOLIO_CONFIG = {
 
       status: "Live",
 
-      href: "#",
+      href: "https://ehtishambalghari.github.io/balghari-store/",
 
       image: "assets/images/project-bmi.jpg",
 
