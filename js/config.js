@@ -151,7 +151,7 @@ window.PORTFOLIO_CONFIG = {
 
     },
 
-    {
+    /*{
 
       title: "VitaGuide – AI BMI Coach",
 
@@ -169,7 +169,7 @@ window.PORTFOLIO_CONFIG = {
 
       featured: false,
 
-    },
+    },*/
 
     {
 
