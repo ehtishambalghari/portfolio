@@ -181,11 +181,11 @@ window.PORTFOLIO_CONFIG = {
 
       status: "Coming Soon",
 
-      href: "#",
+      href: "https://ehtishambalghari.github.io/BMICalculator/",
 
       image: "assets/images/project-bmi.svg",
 
-      tags: ["JavaScript", "UI"],
+      tags: ["HTML", "CSS","JavaScript", "UI"],
 
       featured: false,
 
