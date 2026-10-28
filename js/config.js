@@ -163,7 +163,7 @@ window.PORTFOLIO_CONFIG = {
 
       href: "#",
 
-      image: "assets/images/project-bmi.svg",
+      image: "#",
 
       tags: ["JavaScript", "UI", "AI"],
 
@@ -179,7 +179,7 @@ window.PORTFOLIO_CONFIG = {
 
         "Lightweight health utility for calculating BMI with clear feedback and accessible form design.",
 
-      status: "Coming Soon",
+      status: "Live",
 
       href: "https://ehtishambalghari.github.io/BMICalculator/",
 
